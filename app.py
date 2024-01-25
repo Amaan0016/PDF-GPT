@@ -75,7 +75,7 @@ def userinput_llmoutput(user_question):
 
 def main():
     load_dotenv()
-    os.environ['OPENAI_API_KEY'] = os.getenv('OPENAI_API_KEY')
+    os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
     st.set_page_config(page_title="Chat with multiple documents",
                        page_icon=":books:")
     st.write(css, unsafe_allow_html=True)
